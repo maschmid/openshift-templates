@@ -20,7 +20,7 @@ curl --retry 60 --retry-delay 3 -s -X POST -F login=root -F password="$GITLAB_RO
 
 # Wait for full initialization
 echo "Grace period to allow GitLab to perform full initialization"
-sleep 60
+sleep 120
 
 # Get token for root user
 echo "Get API token for root user"
