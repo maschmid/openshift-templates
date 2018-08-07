@@ -166,7 +166,7 @@
                 "source": {
                     "type": "Git",
                     "git": {
-                        "uri": "https://github.com/jpechane/openshift-templates.git"
+                        "uri": "https://github.com/maschmid/openshift-templates.git"
                     },
                     "contextDir": "gitlab/ce/docker-build/docker"
                 },
